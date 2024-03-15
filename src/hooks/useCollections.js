@@ -26,7 +26,7 @@ const useCollections = () => {
             setData(tokensMetadataJson);
         })();
     }, []);
-
+    console.log(data);
     return data;
 };
 
